@@ -8,3 +8,6 @@ git pull linkDoProjeto (às vezes não precisa)
 
 // Ver versões
 git log --oneline
+
+// Voltar para uma versão anterior
+git restore --source codigoDoCommit .
