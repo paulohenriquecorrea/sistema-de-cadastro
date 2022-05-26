@@ -1,0 +1,10 @@
+//Sequencia commit/push
+git add .
+git commit -m "Descrição"
+git push origin master
+
+//Atualizar de acordo com o origin
+git pull linkDoProjeto (às vezes não precisa)
+
+// Ver versões
+git log --oneline
