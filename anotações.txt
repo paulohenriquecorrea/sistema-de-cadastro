@@ -1,7 +1,7 @@
 //Sequencia commit/push
 git add .
 git commit -m "Descrição"
-git push origin master
+git push origin main
 
 //Atualizar de acordo com o origin
 git pull linkDoProjeto (às vezes não precisa)
