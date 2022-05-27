@@ -19,10 +19,13 @@ git restore --source codigoDoCommit .
 // Criar Branch
 git checkout -b nomeDaBranch
 
+// Mostrar Branches
+git Branch
+
 // Mudar de Branch
 git switch nomeDaBranch
 
-//Trocar usuario e email do git
+// Trocar usuario e email do git
 git config --global user.name "Luiz Antonio Rech"
 git config --global user.email luiz.rech@conffops.com.br
 
