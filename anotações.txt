@@ -25,6 +25,10 @@ git Branch
 // Mudar de Branch
 git switch nomeDaBranch
 
+// Fazer Merge
+(no arquivo pincipal) git merge nomeDaOutraBranch
+git push origin main
+
 // Trocar usuario e email do git
 git config --global user.name "Luiz Antonio Rech"
 git config --global user.email luiz.rech@conffops.com.br
