@@ -29,6 +29,9 @@ git switch nomeDaBranch
 (no arquivo pincipal) git merge nomeDaOutraBranch
 git push origin main
 
+// Link guia prático
+https://guilhermeonrails.github.io/manual-do-git-e-github/
+
 // Trocar usuario e email do git
 git config --global user.name "Luiz Antonio Rech"
 git config --global user.email luiz.rech@conffops.com.br
