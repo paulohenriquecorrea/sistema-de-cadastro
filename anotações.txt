@@ -29,6 +29,10 @@ git switch nomeDaBranch
 (no arquivo pincipal) git merge nomeDaOutraBranch
 git push origin main
 
+// Add projeto do fork
+git init
+git add origin linkDoMeuProjetoForkeado
+
 // Link guia prático
 https://guilhermeonrails.github.io/manual-do-git-e-github/
 
