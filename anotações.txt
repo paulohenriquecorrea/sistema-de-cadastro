@@ -33,6 +33,15 @@ git push origin main
 git init
 git add origin linkDoMeuProjetoForkeado
 
+// Juntar Commits
+git rebase -i HEAD~3 ( i significa interativo; HEAD significa trabalho atual; ~3 significa os três últimos commits a partir do atual)
+ou 
+git rebase -i idDoCommitAnteriorAosCommitsQueQueroJuntar
+  o editor VI será aberto e será exibidos códigos na tela;
+  cada um dos commits que quero juntar aparecerá precedido da palavra pick
+  devo trocar pick por s nos commits que quero juntar (um commit permanece com a palavra pick)
+  Depois o serei redirecionado para escolher um novo comentário para o commit
+
 // Link guia prático
 https://guilhermeonrails.github.io/manual-do-git-e-github/
 
